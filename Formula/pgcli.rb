@@ -3,13 +3,12 @@ class Pgcli < Formula
 
   desc "CLI for Postgres with auto-completion and syntax highlighting"
   homepage "https://pgcli.com/"
-  url "https://files.pythonhosted.org/packages/5a/2a/9821c4a30d79fafdefeff7b071639b0968e1d54710430f2da16f8124fc37/pgcli-2.1.1.tar.gz"
-  sha256 "84e0817a29c3cacaaaf85351422bdb90f230f2550e4af558c25536fd235ab6ca"
-  revision 2
+  url "https://files.pythonhosted.org/packages/19/eb/ec2d4ef9f340660695d17b70f3f4912cee675905e2cd0c5d5d0e39d1e6ba/pgcli-2.2.0.tar.gz"
+  sha256 "54138a31e6736a34c63b84a6d134c9292c9a73543cc0f66e80a0aaf79259d39b"
 
   bottle do
     cellar :any
-    sha256 "f249647ee7af3ff3caa929490a29c4749dba9ecad62dfebf21c4535d1a636395" => :catalina
+    sha256 "91809f3ab60e805c63ab2de3c899fdee43790a93b618d4a484fb02392024c179" => :catalina
     sha256 "a3e952246b681e08a6eb7303e223e179718ef6f5b3d2374a0869e84ad093d70d" => :mojave
     sha256 "8c0311b51fab153b32713adb5242c0da56359dc9015566727f5ef649148c4573" => :high_sierra
   end
@@ -44,8 +43,8 @@ class Pgcli < Formula
   end
 
   resource "pgspecial" do
-    url "https://files.pythonhosted.org/packages/08/2e/4faf028a873f5592a701082b6082e364e649a2c8c736ee41785929b5f036/pgspecial-1.11.5.tar.gz"
-    sha256 "f44dd48db53fd93dc78d61ebac0ca2cc3c58203f94b30edc730b02bfd3ee747b"
+    url "https://files.pythonhosted.org/packages/4e/0c/47957ad5b5cfb488344032326a4a013127b005929422bc5e9ee98bdf18ec/pgspecial-1.11.9.tar.gz"
+    sha256 "77f8651450ccbde7d3036cfe93486a4eeeb5ade28d1ebc4b2ba186fea0023c56"
   end
 
   resource "prompt_toolkit" do
